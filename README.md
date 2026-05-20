@@ -22,7 +22,7 @@ pip install -r requirements.txt
 ## Treinar o modelo
 ```bash
 python -m src.train \
-  --symbol DIS \
+  --symbol ITUB4.SA \
   --years 1 \
   --lookback 30 \
   --epochs 30
@@ -36,7 +36,7 @@ uvicorn src.api:app --host 0.0.0.0 --port 8000
 Chame `POST /predict` com o corpo JSON (a lista deve conter exatamente `lookback` valores de fechamento do mais antigo ao mais recente):
 ```json
 {
-  "symbol": "DIS",
+  "symbol": "ITUB4.SA",
   "history": [120.5, 121.4, 123.1, 125.3]
 }
 ```
