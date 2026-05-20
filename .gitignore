@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.pkl
+*.pth
+models/
+.venv/
+*.log
+tmp/
