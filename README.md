@@ -1,5 +1,8 @@
 # LSTM Tech Challenge
 
+
+Link do video: https://youtu.be/CrTJIRe7JcI
+
 ## Visao Geral
 Pipeline completo para treinar redes LSTM que preveem o fechamento de acoes, cobrindo coleta de dados, tratamento, treinamento, avaliacao, exportacao de artefatos e uma API de inferencia.
 
